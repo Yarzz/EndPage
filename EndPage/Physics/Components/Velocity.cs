@@ -1,9 +1,9 @@
 ﻿using System.Numerics;
-using Game.Components;
+using Core.Components;
 
 namespace Physics.Components
 {
-    public class Velocity : IGameComponent
+    public class Velocity : IEntityComponent
     {
         public Vector2 VelocityVector { get; set; }
 

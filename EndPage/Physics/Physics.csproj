@@ -50,13 +50,13 @@
     <Compile Include="Systems\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Game\Game.csproj">
-      <Project>{35686DD8-2F12-456F-8709-CC8F327F05C3}</Project>
-      <Name>Game</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{35686DD8-2F12-456F-8709-CC8F327F05C3}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

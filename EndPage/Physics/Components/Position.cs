@@ -1,9 +1,9 @@
 ﻿using System.Numerics;
-using Game.Components;
+using Core.Components;
 
 namespace Physics.Components
 {
-    public class Position : IGameComponent
+    public class Position : IEntityComponent
     {
         public Vector2 PositionVector { get; set; }
 
