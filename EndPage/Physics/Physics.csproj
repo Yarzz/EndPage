@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\MovementComponents.cs" />
     <Compile Include="Components\Position.cs" />
     <Compile Include="Components\Velocity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Game.Entities;
+using Core.Entities;
+using Core.Systems;
 
-namespace Game.Systems
+namespace Core.Engine
 {
     public class Engine
     {
         private List<IGameSystem> _systems;
         private List<Entity> _entities;
-        private Dictionary<IComponentNode>
+        private HashSet<IComponentNode> _componentNodes;
 
         public Engine()
         {
