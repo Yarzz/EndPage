@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\AttributesBuilder.cs" />
+    <Compile Include="Attributes\AttributesContainer.cs" />
     <Compile Include="Attributes\IEntityAttributesBuilder.cs" />
     <Compile Include="Components\IEntityComponent.cs" />
     <Compile Include="Engine\Engine.cs" />
