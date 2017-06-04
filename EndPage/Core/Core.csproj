@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\AttributesBuilder.cs" />
+    <Compile Include="Attributes\IEntityAttributesBuilder.cs" />
     <Compile Include="Components\IEntityComponent.cs" />
     <Compile Include="Engine\Engine.cs" />
-    <Compile Include="Engine\IComponentNode.cs" />
+    <Compile Include="Attributes\IEntityAttribute.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Systems\IGameSystem.cs" />
+    <Compile Include="Systems\GameSystem.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

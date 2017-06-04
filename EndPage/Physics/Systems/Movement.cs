@@ -6,11 +6,21 @@ using Physics.Components;
 
 namespace Physics.Systems
 {
-    public class Movement : IGameSystem
+    public class Movement : GameSystem
     {
-        public IEnumerable<MovementComponents> Nodes { get; set; }
+        public IEnumerable<MovementNode> Nodes { get; set; }
 
-        public void Update()
+        public virtual void Initialize()
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void Update()
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void Shutdown()
         {
             throw new NotImplementedException();
         }
